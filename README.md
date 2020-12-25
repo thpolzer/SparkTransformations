@@ -14,7 +14,6 @@ value: 0.0.0.0
 deactivate 127.0.1.1 setting
 example:
 127.0.0.1 localhost
-# 127.0.1.1 hadoopserver
 192.16874.2 hadoopserver
 
 
