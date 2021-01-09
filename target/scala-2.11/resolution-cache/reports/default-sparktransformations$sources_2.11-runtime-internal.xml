@@ -7,15 +7,15 @@
 		revision="0.1"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20201224134822"/>
+		date="20210106190845"/>
 	<dependencies>
 		<module organisation="org.apache.spark" name="spark-sql_2.11">
 			<revision name="2.4.7" status="release" pubdate="20200908153442" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="132">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="85513" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-sql_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.4.7/spark-sql_2.11-2.4.7.pom"/>
+				<metadata-artifact status="no" details="" size="85163" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-sql_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.4.7/spark-sql_2.11-2.4.7.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="spark-sql_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1201610" time="596" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-sql_2.11/srcs/spark-sql_2.11-2.4.7-sources.jar">
+					<artifact name="spark-sql_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1201610" time="590" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-sql_2.11/srcs/spark-sql_2.11-2.4.7-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.11/2.4.7/spark-sql_2.11-2.4.7-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -48,10 +48,10 @@
 		<module organisation="org.apache.spark" name="spark-catalyst_2.11">
 			<revision name="2.4.7" status="release" pubdate="20200908152740" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="116">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="81859" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.4.7/spark-catalyst_2.11-2.4.7.pom"/>
+				<metadata-artifact status="no" details="" size="81509" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.4.7/spark-catalyst_2.11-2.4.7.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="spark-catalyst_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1050905" time="483" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/srcs/spark-catalyst_2.11-2.4.7-sources.jar">
+					<artifact name="spark-catalyst_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1050905" time="698" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-catalyst_2.11/srcs/spark-catalyst_2.11-2.4.7-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-catalyst_2.11/2.4.7/spark-catalyst_2.11-2.4.7-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -60,10 +60,10 @@
 		<module organisation="org.apache.spark" name="spark-sketch_2.11">
 			<revision name="2.4.7" status="release" pubdate="20200908152505" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="153">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="79209" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-sketch_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.4.7/spark-sketch_2.11-2.4.7.pom"/>
+				<metadata-artifact status="no" details="" size="78859" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-sketch_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.4.7/spark-sketch_2.11-2.4.7.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="spark-sketch_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="24720" time="114" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-sketch_2.11/srcs/spark-sketch_2.11-2.4.7-sources.jar">
+					<artifact name="spark-sketch_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="24720" time="118" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-sketch_2.11/srcs/spark-sketch_2.11-2.4.7-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.11/2.4.7/spark-sketch_2.11-2.4.7-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -99,7 +99,7 @@
 				<metadata-artifact status="no" details="" size="4418" time="0" location="/home/ubuntu/.ivy2/cache/org.codehaus.janino/janino/ivy-3.0.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.16/janino-3.0.16.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.16" rev-constraint-default="3.0.16" rev-constraint-dynamic="3.0.16" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="janino" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="405380" time="344" location="/home/ubuntu/.ivy2/cache/org.codehaus.janino/janino/srcs/janino-3.0.16-sources.jar">
+					<artifact name="janino" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="405380" time="188" location="/home/ubuntu/.ivy2/cache/org.codehaus.janino/janino/srcs/janino-3.0.16-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/janino/janino/3.0.16/janino-3.0.16-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -111,7 +111,7 @@
 				<metadata-artifact status="no" details="" size="3984" time="0" location="/home/ubuntu/.ivy2/cache/org.codehaus.janino/commons-compiler/ivy-3.0.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.16/commons-compiler-3.0.16.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="3.0.16" rev-constraint-default="3.0.16" rev-constraint-dynamic="3.0.16" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="commons-compiler" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="104951" time="116" location="/home/ubuntu/.ivy2/cache/org.codehaus.janino/commons-compiler/srcs/commons-compiler-3.0.16-sources.jar">
+					<artifact name="commons-compiler" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="104951" time="203" location="/home/ubuntu/.ivy2/cache/org.codehaus.janino/commons-compiler/srcs/commons-compiler-3.0.16-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/janino/commons-compiler/3.0.16/commons-compiler-3.0.16-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -195,7 +195,7 @@
 				<metadata-artifact status="no" details="" size="2829" time="0" location="/home/ubuntu/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.12/"/>
 				<artifacts>
-					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="567508" time="0" location="/home/ubuntu/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.12-sources.jar">
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="567508" time="301" location="/home/ubuntu/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.12-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -267,7 +267,7 @@
 				<metadata-artifact status="no" details="" size="98652" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.4.7/spark-core_2.11-2.4.7.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="spark-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1864118" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.4.7-sources.jar">
+					<artifact name="spark-core_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1864118" time="899" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.4.7-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.11/2.4.7/spark-core_2.11-2.4.7-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -387,7 +387,7 @@
 				<metadata-artifact status="no" details="" size="3941" time="0" location="/home/ubuntu/.ivy2/cache/org.xerial.snappy/snappy-java/ivy-1.1.7.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.7.5/snappy-java-1.1.7.5.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="1.1.7.5" rev-constraint-default="1.1.7.5" rev-constraint-dynamic="1.1.7.5" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="snappy-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1924261" time="0" location="/home/ubuntu/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.1.7.5-sources.jar">
+					<artifact name="snappy-java" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1924261" time="711" location="/home/ubuntu/.ivy2/cache/org.xerial.snappy/snappy-java/srcs/snappy-java-1.1.7.5-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.7.5/snappy-java-1.1.7.5-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -456,10 +456,10 @@
 		<module organisation="org.apache.spark" name="spark-unsafe_2.11">
 			<revision name="2.4.7" status="release" pubdate="20200908152341" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="100">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="80401" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.4.7/spark-unsafe_2.11-2.4.7.pom"/>
+				<metadata-artifact status="no" details="" size="80051" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.4.7/spark-unsafe_2.11-2.4.7.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="spark-unsafe_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43620" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/srcs/spark-unsafe_2.11-2.4.7-sources.jar">
+					<artifact name="spark-unsafe_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="43620" time="103" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/srcs/spark-unsafe_2.11-2.4.7-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-unsafe_2.11/2.4.7/spark-unsafe_2.11-2.4.7-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -468,10 +468,10 @@
 		<module organisation="org.apache.spark" name="spark-network-shuffle_2.11">
 			<revision name="2.4.7" status="release" pubdate="20200908152555" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="102">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="80638" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.4.7/spark-network-shuffle_2.11-2.4.7.pom"/>
+				<metadata-artifact status="no" details="" size="80288" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.4.7/spark-network-shuffle_2.11-2.4.7.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="spark-network-shuffle_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="49834" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/srcs/spark-network-shuffle_2.11-2.4.7-sources.jar">
+					<artifact name="spark-network-shuffle_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="49834" time="98" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/srcs/spark-network-shuffle_2.11-2.4.7-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-shuffle_2.11/2.4.7/spark-network-shuffle_2.11-2.4.7-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -480,10 +480,10 @@
 		<module organisation="org.apache.spark" name="spark-network-common_2.11">
 			<revision name="2.4.7" status="release" pubdate="20200908151719" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="109">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="81420" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.4.7/spark-network-common_2.11-2.4.7.pom"/>
+				<metadata-artifact status="no" details="" size="81070" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.4.7/spark-network-common_2.11-2.4.7.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="spark-network-common_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="143384" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-network-common_2.11/srcs/spark-network-common_2.11-2.4.7-sources.jar">
+					<artifact name="spark-network-common_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="143384" time="132" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-network-common_2.11/srcs/spark-network-common_2.11-2.4.7-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-network-common_2.11/2.4.7/spark-network-common_2.11-2.4.7-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -507,7 +507,7 @@
 				<metadata-artifact status="no" details="" size="21943" time="0" location="/home/ubuntu/.ivy2/cache/io.netty/netty-all/ivy-4.1.47.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-all/4.1.47.Final/netty-all-4.1.47.Final.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="4.1.47.Final" rev-constraint-default="4.1.47.Final" rev-constraint-dynamic="4.1.47.Final" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="netty-all" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3439380" time="0" location="/home/ubuntu/.ivy2/cache/io.netty/netty-all/srcs/netty-all-4.1.47.Final-sources.jar">
+					<artifact name="netty-all" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3439380" time="1022" location="/home/ubuntu/.ivy2/cache/io.netty/netty-all/srcs/netty-all-4.1.47.Final-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-all/4.1.47.Final/netty-all-4.1.47.Final-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -601,10 +601,10 @@
 		<module organisation="org.apache.spark" name="spark-launcher_2.11">
 			<revision name="2.4.7" status="release" pubdate="20200908152952" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="82303" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.4.7/spark-launcher_2.11-2.4.7.pom"/>
+				<metadata-artifact status="no" details="" size="81953" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.4.7/spark-launcher_2.11-2.4.7.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="spark-launcher_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55306" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-launcher_2.11/srcs/spark-launcher_2.11-2.4.7-sources.jar">
+					<artifact name="spark-launcher_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="55306" time="139" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-launcher_2.11/srcs/spark-launcher_2.11-2.4.7-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-launcher_2.11/2.4.7/spark-launcher_2.11-2.4.7-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -732,10 +732,10 @@
 		<module organisation="org.apache.spark" name="spark-kvstore_2.11">
 			<revision name="2.4.7" status="release" pubdate="20200908152158" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="80536" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-kvstore_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-kvstore_2.11/2.4.7/spark-kvstore_2.11-2.4.7.pom"/>
+				<metadata-artifact status="no" details="" size="80186" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-kvstore_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-kvstore_2.11/2.4.7/spark-kvstore_2.11-2.4.7.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="spark-kvstore_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="35110" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-kvstore_2.11/srcs/spark-kvstore_2.11-2.4.7-sources.jar">
+					<artifact name="spark-kvstore_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="35110" time="281" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-kvstore_2.11/srcs/spark-kvstore_2.11-2.4.7-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-kvstore_2.11/2.4.7/spark-kvstore_2.11-2.4.7-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -759,7 +759,7 @@
 				<metadata-artifact status="no" details="" size="8938" time="0" location="/home/ubuntu/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/ivy-2.6.7.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.3/jackson-databind-2.6.7.3.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.6.7.3" rev-constraint-default="2.6.7.3" rev-constraint-dynamic="2.6.7.3" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="860764" time="0" location="/home/ubuntu/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.6.7.3-sources.jar">
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="860764" time="289" location="/home/ubuntu/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/srcs/jackson-databind-2.6.7.3-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.7.3/jackson-databind-2.6.7.3-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -780,10 +780,10 @@
 		<module organisation="org.apache.spark" name="spark-tags_2.11">
 			<revision name="2.4.7" status="release" pubdate="20200908151958" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="139">
 				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="no" details="" size="78929" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.4.7/spark-tags_2.11-2.4.7.pom"/>
+				<metadata-artifact status="no" details="" size="78579" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.4.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.4.7/spark-tags_2.11-2.4.7.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.7" rev-constraint-default="2.4.7" rev-constraint-dynamic="2.4.7" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="spark-tags_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14785" time="0" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-tags_2.11/srcs/spark-tags_2.11-2.4.7-sources.jar">
+					<artifact name="spark-tags_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="14785" time="91" location="/home/ubuntu/.ivy2/cache/org.apache.spark/spark-tags_2.11/srcs/spark-tags_2.11-2.4.7-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/spark/spark-tags_2.11/2.4.7/spark-tags_2.11-2.4.7-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -831,7 +831,7 @@
 				<metadata-artifact status="no" details="" size="2656" time="0" location="/home/ubuntu/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.pom"/>
 				<caller organisation="default" name="sparktransformations$sources_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.11.12/"/>
 				<artifacts>
-					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="912259" time="0" location="/home/ubuntu/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.12-sources.jar">
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="912259" time="354" location="/home/ubuntu/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.12-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12-sources.jar"/>
 					</artifact>
 				</artifacts>
