@@ -17,16 +17,13 @@ object Main extends App {
         m(4).toFloat,
         m(5).toString.replace("\"","").toFloat))
 
-  val rddFromFile1 = schemaInferredRDD.collect()
+  // calculate average allocation per year pear station
+  val aggregateRDD = schemaInferredRDD
+    .map (mydata => ((mydata.station,mydata.calyear),mydata.allocation))
+    .reduceByKey((x,y) => (x+y)/2)
+    .saveAsTextFile("hdfs://hadoopserver:9000/hdpuser/output/aggregatedAllocations.text")
 
-  // calculate average of capacity per year pear station
-  val aggregateRDD = schemaInferredRDD.map (mydata => ((mydata.station,mydata.calyear),mydata.allocation))
-  val check = aggregateRDD.collect()
 
-  val reducedRDD = aggregateRDD.reduceByKey((x,y) => (x+y)/2)
-    //.map(x=>(x._1,x._2._1,x._2._2))
-
-  val debug = reducedRDD.collect()
   val a = 3
 
 
