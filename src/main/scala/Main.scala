@@ -1,27 +1,37 @@
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.SparkSession
 import sparkconnection.SparkConfiguration
+import recordtypes.Measures
 
 object Main extends App {
 
   val sc = new SparkConfiguration(args(0),args(1)).sparkconfig._1
- // print(sc.sparkUser)
+  val rddFromFile = sc.textFile("hdfs://hadoopserver:9000/hdpuser/inputdata/inputdata_timeseries.csv").filter(row => !(row.split(",")(0).equals("\"TYPE\"")))
+  val schemaInferredRDD = rddFromFile
+      .map(_.split(","))
+      .map (m => Measures(
+        m(0).toString.replace("\"",""),
+        m(1).toString,
+        m(2).toInt,
+        m(3).toString,
+        m(4).toFloat,
+        m(5).toString.replace("\"","").toFloat))
 
-  val rddFromFile = sc.textFile("hdfs://hadoopserver:9000/hdpuser/inputdata/inputdata_timeseries.csv")
+  val rddFromFile1 = schemaInferredRDD.collect()
 
-  val rddFromFile1 = rddFromFile.collect()
+  // calculate average of capacity per year pear station
+  val aggregateRDD = schemaInferredRDD.map (mydata => ((mydata.station,mydata.calyear),mydata.allocation))
+  val check = aggregateRDD.collect()
+
+  val reducedRDD = aggregateRDD.reduceByKey((x,y) => (x+y)/2)
+    //.map(x=>(x._1,x._2._1,x._2._2))
+
+  val debug = reducedRDD.collect()
+  val a = 3
 
 
 
 
 
-
-
-
-  val rdd = sc.parallelize(List(1,2,3,4,5,6)).cache()
-  val t1= rdd.map(x => x*2)
-  val result = t1.collect()
-  val a = 1
- println ("Karl")
 
 }
