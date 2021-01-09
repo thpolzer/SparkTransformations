@@ -1,3 +1,3 @@
 package recordtypes
 
-case class Measures(direction:Int, station:String, calyear:Int, day:String, allocation: Double, capa: Double)
+case class Measures(direction:String, station:String, calyear:Int, day:String, allocation: Float, capa: Float)
