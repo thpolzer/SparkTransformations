@@ -4,7 +4,7 @@
 		module="sparktransformations_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20210106190751"
+		publication="20210123131434"
 	>
 		<description>
 		SparkTransformations
@@ -36,5 +36,6 @@
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.12" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-core_2.11" rev="2.4.7" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.4.7" conf="compile->default(compile)"/>
+		<dependency org="mysql" name="mysql-connector-java" rev="5.1.16" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
